@@ -1,6 +1,6 @@
 ﻿namespace PurReqRep2
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -113,6 +113,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // statusStrip1
             // 
